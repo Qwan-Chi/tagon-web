@@ -75,7 +75,7 @@ export default function SocialLinks() {
           <div className="space-y-4">
             <a
               href="http://x.com/tagonkrat"
-              className="flex items-center justify-between p-4 rounded-full bg-black text-white hover:opacity-90 transition-opacity"
+              className="flex items-center justify-between p-4 rounded-full bg-black text-white hover:shadow-lg transition"
             >
               <span className="text-lg font-medium">X (Twitter)</span>
               <X className="h-6 w-6" />
@@ -83,25 +83,25 @@ export default function SocialLinks() {
 
             <a
               href="https://vk.com/public184165368"
-              className="flex items-center justify-between p-4 rounded-full bg-blue-600 text-white hover:opacity-90 transition-opacity"
+              className="flex items-center justify-between p-4 rounded-full bg-blue-600 text-white hover:shadow-lg transition"
             >
               <span className="text-lg font-medium">VK</span>
               <MessageCircle className="h-6 w-6" />
             </a>
-            <a href="http://boosty.to/tagonkrat" className="flex items-center justify-between p-4 rounded-full bg-orange-400 text-white hover:opacity-90 transition-opacity">
+            <a href="http://boosty.to/tagonkrat" className="flex items-center justify-between p-4 rounded-full bg-orange-400 text-white hover:shadow-lg transition">
               <span className="text-lg font-medium">Boosty</span>
               <Rocket className="h-6 w-6" />
             </a>
             <a
               href="http://patreon.com/c/TAGONKRAT"
-              className="flex items-center justify-between p-4 rounded-full bg-orange-600 text-white hover:opacity-90 transition-opacity"
+              className="flex items-center justify-between p-4 rounded-full bg-orange-600 text-white hover:shadow-lg transition"
             >
               <span className="text-lg font-medium">Patreon</span>
               <CircleDollarSign className="h-6 w-6" />
             </a>   
             <a
               href="https://furaffinity.net/user/tagonkrat/"
-              className="flex items-center justify-between p-4 rounded-full bg-orange-800 text-white hover:opacity-90 transition-opacity">
+              className="flex items-center justify-between p-4 rounded-full bg-orange-800 text-white hover:shadow-lg transition">
               <span className="text-lg font-medium">FurAffinity</span>
               <PawPrint className="h-6 w-6"/>
             </a>
